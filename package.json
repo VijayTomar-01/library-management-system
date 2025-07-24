@@ -1,0 +1,26 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "This is a library managment API Backend for the managment of users and the books",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VijayTomar-01/library-management-system.git"
+  },
+  "author": "Vijay Tomar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VijayTomar-01/library-management-system/issues"
+  },
+  "homepage": "https://github.com/VijayTomar-01/library-management-system#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
