@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express();
-const books = require('./data/books.js')
-const users = require('./data/users.js')
 
+
+
+const usersRouter = require('./routes/users')
+const booksRouter = require('./routes/books')
 const port = 4000;
 
 app.use(express.json());
@@ -12,6 +14,12 @@ app.get('/', (req, res)=>{
         message: "Home_page :-"
     })
 })
+app.use('/users', usersRouter)
+app.use('/books', booksRouter)
+
+
+
+
 // app.all('*', (req, res)=>{
 //     res.status(500).json({
 //         message: "under construction"

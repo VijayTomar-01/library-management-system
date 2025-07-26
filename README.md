@@ -4,12 +4,12 @@
 # Routes and the Endpoints
 
 ## /users
-GET: GET: Get all the list of users in the system POST: Create/Register a new user
+GET: Get all the list of users in the system 
 POST: Create/Register a new user
 
 ## /users{id}
 GET: Get a user by their ID
-PUT: Updating a user bby their ID
+PUT: Updating a user by their ID
 DELETE: Deleting a user by their ID (Check if the user still has an issued book) && (Is there any fine/penalty to be collected)
 
 ## /users/subscription-details/{id}
